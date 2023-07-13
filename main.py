@@ -2,25 +2,41 @@ if __name__ == '__main__':
 
    # створюємо словник 'products' з назвою товарів та їх ціною
 
-    products = [{
-         'fruit': 'Апельсин',
-         'price': 'two',
+    products = [
+        {
+         'fruit': 'Orange',
+         'price': 10
+        },
+
+        {
+        'fruit': 'Banana',
+        'price': 20
+        },
+
+        {
+        'fruit': 'Kiwi',
+        'price': 25
     },
-    {
-        'fruit': 'Банан',
-        'price': 'two',
-    },
-    {
-        'fruit': 'Ківі',
-        'price': 'two',
-    },
-    {
-        'fruit': 'Яблуко',
-        'price': 'two',
-    },
-    {
-        'fruit': 'Маракуя',
-        'price': 'two',
-    }
+
+        {
+        'fruit': 'Apple',
+        'price': 15
+        },
+
+        {
+        'fruit': 'Сherry',
+        'price': 30 
+        }
     ]
-    print(products['fruit'])
+
+    balance = 100
+    total_price = input()
+
+         shopping_cart = []
+         balance = 0
+         while balance >= 100:
+             balance += 1
+
+
+             print(shopping_cart)
+
