@@ -29,14 +29,22 @@ if __name__ == '__main__':
         }
     ]
 
-    balance = 100
-    total_price = input()
+fruit_choice = float(input())
+sum = 0
+for i in range(fruit_choice):
+    x = float(input())
+    sum += x
+    print(sum)
 
-         shopping_cart = []
-         balance = 0
-         while balance >= 100:
-             balance += 1
 
 
-             print(shopping_cart)
+    #    shopping_cart = []
+    #
+    # total_price = input()
+    #    balance = 0
+    #      while balance >= 100:
+    #          balance += 1
+    #
+    #          balance = 100
+    #          print(shopping_cart)
 
